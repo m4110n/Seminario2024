@@ -1,59 +1,44 @@
 ﻿@model IEnumerable<PermisosDeEstudiantes.Models.Permiso>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Consultar Permisos";
 }
 
-<h1>Index</h1>
+<h1>Consultar Permisos</h1>
 
+<!-- Botones para consultar y crear un nuevo permiso -->
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-action="Consultar" class="btn btn-primary">Consultar</a>
+    <a asp-action="Create" class="btn btn-success">Crear Nuevo Permiso</a>
 </p>
-<table class="table">
-    <thead>
+
+<!-- Tabla para mostrar los permisos -->
+<table class="table table-striped table-bordered">
+    <thead class="thead-dark">
         <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.IdEstudiante)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Motivo)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.IdCategoria)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Fecha)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.IdEstado)
-            </th>
-            <th></th>
+            <th>@Html.DisplayNameFor(model => model.IdEstudiante)</th>
+            <th>@Html.DisplayNameFor(model => model.Motivo)</th>
+            <th>@Html.DisplayNameFor(model => model.IdCategoria)</th>
+            <th>@Html.DisplayNameFor(model => model.Fecha)</th>
+            <th>@Html.DisplayNameFor(model => model.IdEstado)</th>
+            <th>Acciones</th>
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.IdEstudiante)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Motivo)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.IdCategoria)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Fecha)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.IdEstado)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.IdPermiso">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.IdPermiso">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.IdPermiso">Delete</a>
-            </td>
-        </tr>
-}
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.IdEstudiante)</td>
+                <td>@Html.DisplayFor(modelItem => item.Motivo)</td>
+                <td>@Html.DisplayFor(modelItem => item.IdCategoria)</td>
+                <td>@Html.DisplayFor(modelItem => item.Fecha)</td>
+                <td>@Html.DisplayFor(modelItem => item.IdEstado)</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.IdPermiso" class="btn btn-warning btn-sm">Editar</a>
+                    <a asp-action="Details" asp-route-id="@item.IdPermiso" class="btn btn-info btn-sm">Detalles</a>
+                    <a asp-action="Delete" asp-route-id="@item.IdPermiso" class="btn btn-danger btn-sm">Eliminar</a>
+                </td>
+            </tr>
+        }
     </tbody>
 </table>

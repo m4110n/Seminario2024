@@ -152,5 +152,34 @@ namespace PermisosDeEstudiantes.Controllers
         {
             return _context.Permiso.Any(e => e.IdPermiso == id);
         }
+
+        // GET: Permiso/Consultar
+        public IActionResult Consultar()
+        {
+            return View();
+        }
+
+        // POST: Permiso/Consultar
+        [HttpPost]
+        public async Task<IActionResult> Consultar(int? searchId)
+        {
+            if (searchId == null)
+            {
+                ViewBag.Message = "Por favor, ingrese un ID de Permiso.";
+                return View();
+            }
+
+            var permiso = await _context.Permiso
+                .FirstOrDefaultAsync(m => m.IdPermiso == searchId);
+
+            if (permiso == null)
+            {
+                ViewBag.Message = "No se encontró ningún permiso con el ID especificado.";
+                return View();
+            }
+
+            return View(permiso);
+        }
+
     }
 }

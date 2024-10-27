@@ -3,12 +3,80 @@
   "WorkspaceRootPath": "C:\\Users\\win 11\\source\\repos\\PermisosDeEstudiantes\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E9394328-CC28-49FB-A646-AD053ADE1499}|PermisosDeEstudiantes\\PermisosDeEstudiantes.csproj|c:\\users\\win 11\\source\\repos\\permisosdeestudiantes\\permisosdeestudiantes\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{E9394328-CC28-49FB-A646-AD053ADE1499}|PermisosDeEstudiantes\\PermisosDeEstudiantes.csproj|solutionrelative:permisosdeestudiantes\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{E9394328-CC28-49FB-A646-AD053ADE1499}|PermisosDeEstudiantes\\PermisosDeEstudiantes.csproj|c:\\users\\win 11\\source\\repos\\permisosdeestudiantes\\permisosdeestudiantes\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9394328-CC28-49FB-A646-AD053ADE1499}|PermisosDeEstudiantes\\PermisosDeEstudiantes.csproj|solutionrelative:permisosdeestudiantes\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9394328-CC28-49FB-A646-AD053ADE1499}|PermisosDeEstudiantes\\PermisosDeEstudiantes.csproj|c:\\users\\win 11\\source\\repos\\permisosdeestudiantes\\permisosdeestudiantes\\views\\permiso\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9394328-CC28-49FB-A646-AD053ADE1499}|PermisosDeEstudiantes\\PermisosDeEstudiantes.csproj|solutionrelative:permisosdeestudiantes\\views\\permiso\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9394328-CC28-49FB-A646-AD053ADE1499}|PermisosDeEstudiantes\\PermisosDeEstudiantes.csproj|c:\\users\\win 11\\source\\repos\\permisosdeestudiantes\\permisosdeestudiantes\\views\\permiso\\consultar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9394328-CC28-49FB-A646-AD053ADE1499}|PermisosDeEstudiantes\\PermisosDeEstudiantes.csproj|solutionrelative:permisosdeestudiantes\\views\\permiso\\consultar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9394328-CC28-49FB-A646-AD053ADE1499}|PermisosDeEstudiantes\\PermisosDeEstudiantes.csproj|c:\\users\\win 11\\source\\repos\\permisosdeestudiantes\\permisosdeestudiantes\\controllers\\permisocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9394328-CC28-49FB-A646-AD053ADE1499}|PermisosDeEstudiantes\\PermisosDeEstudiantes.csproj|solutionrelative:permisosdeestudiantes\\controllers\\permisocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9394328-CC28-49FB-A646-AD053ADE1499}|PermisosDeEstudiantes\\PermisosDeEstudiantes.csproj|c:\\users\\win 11\\source\\repos\\permisosdeestudiantes\\permisosdeestudiantes\\models\\consulta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9394328-CC28-49FB-A646-AD053ADE1499}|PermisosDeEstudiantes\\PermisosDeEstudiantes.csproj|solutionrelative:permisosdeestudiantes\\models\\consulta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9394328-CC28-49FB-A646-AD053ADE1499}|PermisosDeEstudiantes\\PermisosDeEstudiantes.csproj|c:\\users\\win 11\\source\\repos\\permisosdeestudiantes\\permisosdeestudiantes\\models\\estado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9394328-CC28-49FB-A646-AD053ADE1499}|PermisosDeEstudiantes\\PermisosDeEstudiantes.csproj|solutionrelative:permisosdeestudiantes\\models\\estado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9394328-CC28-49FB-A646-AD053ADE1499}|PermisosDeEstudiantes\\PermisosDeEstudiantes.csproj|c:\\users\\win 11\\source\\repos\\permisosdeestudiantes\\permisosdeestudiantes\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9394328-CC28-49FB-A646-AD053ADE1499}|PermisosDeEstudiantes\\PermisosDeEstudiantes.csproj|solutionrelative:permisosdeestudiantes\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9394328-CC28-49FB-A646-AD053ADE1499}|PermisosDeEstudiantes\\PermisosDeEstudiantes.csproj|c:\\users\\win 11\\source\\repos\\permisosdeestudiantes\\permisosdeestudiantes\\models\\permiso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9394328-CC28-49FB-A646-AD053ADE1499}|PermisosDeEstudiantes\\PermisosDeEstudiantes.csproj|solutionrelative:permisosdeestudiantes\\models\\permiso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E9394328-CC28-49FB-A646-AD053ADE1499}|PermisosDeEstudiantes\\PermisosDeEstudiantes.csproj|c:\\users\\win 11\\source\\repos\\permisosdeestudiantes\\permisosdeestudiantes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E9394328-CC28-49FB-A646-AD053ADE1499}|PermisosDeEstudiantes\\PermisosDeEstudiantes.csproj|solutionrelative:permisosdeestudiantes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9394328-CC28-49FB-A646-AD053ADE1499}|PermisosDeEstudiantes\\PermisosDeEstudiantes.csproj|c:\\users\\win 11\\source\\repos\\permisosdeestudiantes\\permisosdeestudiantes\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E9394328-CC28-49FB-A646-AD053ADE1499}|PermisosDeEstudiantes\\PermisosDeEstudiantes.csproj|solutionrelative:permisosdeestudiantes\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9394328-CC28-49FB-A646-AD053ADE1499}|PermisosDeEstudiantes\\PermisosDeEstudiantes.csproj|c:\\users\\win 11\\source\\repos\\permisosdeestudiantes\\permisosdeestudiantes\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{E9394328-CC28-49FB-A646-AD053ADE1499}|PermisosDeEstudiantes\\PermisosDeEstudiantes.csproj|solutionrelative:permisosdeestudiantes\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9394328-CC28-49FB-A646-AD053ADE1499}|PermisosDeEstudiantes\\PermisosDeEstudiantes.csproj|c:\\users\\win 11\\source\\repos\\permisosdeestudiantes\\permisosdeestudiantes\\views\\permiso\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9394328-CC28-49FB-A646-AD053ADE1499}|PermisosDeEstudiantes\\PermisosDeEstudiantes.csproj|solutionrelative:permisosdeestudiantes\\views\\permiso\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9394328-CC28-49FB-A646-AD053ADE1499}|PermisosDeEstudiantes\\PermisosDeEstudiantes.csproj|c:\\users\\win 11\\source\\repos\\permisosdeestudiantes\\permisosdeestudiantes\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9394328-CC28-49FB-A646-AD053ADE1499}|PermisosDeEstudiantes\\PermisosDeEstudiantes.csproj|solutionrelative:permisosdeestudiantes\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9394328-CC28-49FB-A646-AD053ADE1499}|PermisosDeEstudiantes\\PermisosDeEstudiantes.csproj|c:\\users\\win 11\\source\\repos\\permisosdeestudiantes\\permisosdeestudiantes\\views\\estudiantes\\vistaestudiante.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9394328-CC28-49FB-A646-AD053ADE1499}|PermisosDeEstudiantes\\PermisosDeEstudiantes.csproj|solutionrelative:permisosdeestudiantes\\views\\estudiantes\\vistaestudiante.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9394328-CC28-49FB-A646-AD053ADE1499}|PermisosDeEstudiantes\\PermisosDeEstudiantes.csproj|c:\\users\\win 11\\source\\repos\\permisosdeestudiantes\\permisosdeestudiantes\\views\\cargos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9394328-CC28-49FB-A646-AD053ADE1499}|PermisosDeEstudiantes\\PermisosDeEstudiantes.csproj|solutionrelative:permisosdeestudiantes\\views\\cargos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9394328-CC28-49FB-A646-AD053ADE1499}|PermisosDeEstudiantes\\PermisosDeEstudiantes.csproj|c:\\users\\win 11\\source\\repos\\permisosdeestudiantes\\permisosdeestudiantes\\controllers\\cargoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9394328-CC28-49FB-A646-AD053ADE1499}|PermisosDeEstudiantes\\PermisosDeEstudiantes.csproj|solutionrelative:permisosdeestudiantes\\controllers\\cargoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9394328-CC28-49FB-A646-AD053ADE1499}|PermisosDeEstudiantes\\PermisosDeEstudiantes.csproj|c:\\users\\win 11\\source\\repos\\permisosdeestudiantes\\permisosdeestudiantes\\models\\cargo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9394328-CC28-49FB-A646-AD053ADE1499}|PermisosDeEstudiantes\\PermisosDeEstudiantes.csproj|solutionrelative:permisosdeestudiantes\\models\\cargo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9394328-CC28-49FB-A646-AD053ADE1499}|PermisosDeEstudiantes\\PermisosDeEstudiantes.csproj|c:\\users\\win 11\\source\\repos\\permisosdeestudiantes\\permisosdeestudiantes\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9394328-CC28-49FB-A646-AD053ADE1499}|PermisosDeEstudiantes\\PermisosDeEstudiantes.csproj|solutionrelative:permisosdeestudiantes\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9394328-CC28-49FB-A646-AD053ADE1499}|PermisosDeEstudiantes\\PermisosDeEstudiantes.csproj|c:\\users\\win 11\\source\\repos\\permisosdeestudiantes\\permisosdeestudiantes\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9394328-CC28-49FB-A646-AD053ADE1499}|PermisosDeEstudiantes\\PermisosDeEstudiantes.csproj|solutionrelative:permisosdeestudiantes\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E9394328-CC28-49FB-A646-AD053ADE1499}|PermisosDeEstudiantes\\PermisosDeEstudiantes.csproj|c:\\users\\win 11\\source\\repos\\permisosdeestudiantes\\permisosdeestudiantes\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,18 +91,6 @@
       "RelativeMoniker": "D:0:0:{E9394328-CC28-49FB-A646-AD053ADE1499}|PermisosDeEstudiantes\\PermisosDeEstudiantes.csproj|solutionrelative:permisosdeestudiantes\\migrations\\20241013210814_addclasecategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9394328-CC28-49FB-A646-AD053ADE1499}|PermisosDeEstudiantes\\PermisosDeEstudiantes.csproj|c:\\users\\win 11\\source\\repos\\permisosdeestudiantes\\permisosdeestudiantes\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E9394328-CC28-49FB-A646-AD053ADE1499}|PermisosDeEstudiantes\\PermisosDeEstudiantes.csproj|solutionrelative:permisosdeestudiantes\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9394328-CC28-49FB-A646-AD053ADE1499}|PermisosDeEstudiantes\\PermisosDeEstudiantes.csproj|c:\\users\\win 11\\source\\repos\\permisosdeestudiantes\\permisosdeestudiantes\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{E9394328-CC28-49FB-A646-AD053ADE1499}|PermisosDeEstudiantes\\PermisosDeEstudiantes.csproj|solutionrelative:permisosdeestudiantes\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9394328-CC28-49FB-A646-AD053ADE1499}|PermisosDeEstudiantes\\PermisosDeEstudiantes.csproj|c:\\users\\win 11\\source\\repos\\permisosdeestudiantes\\permisosdeestudiantes\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9394328-CC28-49FB-A646-AD053ADE1499}|PermisosDeEstudiantes\\PermisosDeEstudiantes.csproj|solutionrelative:permisosdeestudiantes\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E9394328-CC28-49FB-A646-AD053ADE1499}|PermisosDeEstudiantes\\PermisosDeEstudiantes.csproj|c:\\users\\win 11\\source\\repos\\permisosdeestudiantes\\permisosdeestudiantes\\controllers\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E9394328-CC28-49FB-A646-AD053ADE1499}|PermisosDeEstudiantes\\PermisosDeEstudiantes.csproj|solutionrelative:permisosdeestudiantes\\controllers\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -47,10 +103,6 @@
       "RelativeMoniker": "D:0:0:{E9394328-CC28-49FB-A646-AD053ADE1499}|PermisosDeEstudiantes\\PermisosDeEstudiantes.csproj|solutionrelative:permisosdeestudiantes\\wwwroot\\css\\siteestudiante.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9394328-CC28-49FB-A646-AD053ADE1499}|PermisosDeEstudiantes\\PermisosDeEstudiantes.csproj|c:\\users\\win 11\\source\\repos\\permisosdeestudiantes\\permisosdeestudiantes\\views\\estudiantes\\vistaestudiante.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E9394328-CC28-49FB-A646-AD053ADE1499}|PermisosDeEstudiantes\\PermisosDeEstudiantes.csproj|solutionrelative:permisosdeestudiantes\\views\\estudiantes\\vistaestudiante.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E9394328-CC28-49FB-A646-AD053ADE1499}|PermisosDeEstudiantes\\PermisosDeEstudiantes.csproj|c:\\users\\win 11\\source\\repos\\permisosdeestudiantes\\permisosdeestudiantes\\models\\estudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E9394328-CC28-49FB-A646-AD053ADE1499}|PermisosDeEstudiantes\\PermisosDeEstudiantes.csproj|solutionrelative:permisosdeestudiantes\\models\\estudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -59,24 +111,8 @@
       "RelativeMoniker": "D:0:0:{E9394328-CC28-49FB-A646-AD053ADE1499}|PermisosDeEstudiantes\\PermisosDeEstudiantes.csproj|solutionrelative:permisosdeestudiantes\\controllers\\estudiantescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9394328-CC28-49FB-A646-AD053ADE1499}|PermisosDeEstudiantes\\PermisosDeEstudiantes.csproj|c:\\users\\win 11\\source\\repos\\permisosdeestudiantes\\permisosdeestudiantes\\models\\permiso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9394328-CC28-49FB-A646-AD053ADE1499}|PermisosDeEstudiantes\\PermisosDeEstudiantes.csproj|solutionrelative:permisosdeestudiantes\\models\\permiso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E9394328-CC28-49FB-A646-AD053ADE1499}|PermisosDeEstudiantes\\PermisosDeEstudiantes.csproj|c:\\users\\win 11\\source\\repos\\permisosdeestudiantes\\permisosdeestudiantes\\controllers\\personascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E9394328-CC28-49FB-A646-AD053ADE1499}|PermisosDeEstudiantes\\PermisosDeEstudiantes.csproj|solutionrelative:permisosdeestudiantes\\controllers\\personascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9394328-CC28-49FB-A646-AD053ADE1499}|PermisosDeEstudiantes\\PermisosDeEstudiantes.csproj|c:\\users\\win 11\\source\\repos\\permisosdeestudiantes\\permisosdeestudiantes\\models\\cargo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9394328-CC28-49FB-A646-AD053ADE1499}|PermisosDeEstudiantes\\PermisosDeEstudiantes.csproj|solutionrelative:permisosdeestudiantes\\models\\cargo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9394328-CC28-49FB-A646-AD053ADE1499}|PermisosDeEstudiantes\\PermisosDeEstudiantes.csproj|c:\\users\\win 11\\source\\repos\\permisosdeestudiantes\\permisosdeestudiantes\\models\\estado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9394328-CC28-49FB-A646-AD053ADE1499}|PermisosDeEstudiantes\\PermisosDeEstudiantes.csproj|solutionrelative:permisosdeestudiantes\\models\\estado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9394328-CC28-49FB-A646-AD053ADE1499}|PermisosDeEstudiantes\\PermisosDeEstudiantes.csproj|c:\\users\\win 11\\source\\repos\\permisosdeestudiantes\\permisosdeestudiantes\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E9394328-CC28-49FB-A646-AD053ADE1499}|PermisosDeEstudiantes\\PermisosDeEstudiantes.csproj|solutionrelative:permisosdeestudiantes\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E9394328-CC28-49FB-A646-AD053ADE1499}|PermisosDeEstudiantes\\PermisosDeEstudiantes.csproj|c:\\users\\win 11\\source\\repos\\permisosdeestudiantes\\permisosdeestudiantes\\views\\personas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -91,16 +127,8 @@
       "RelativeMoniker": "D:0:0:{E9394328-CC28-49FB-A646-AD053ADE1499}|PermisosDeEstudiantes\\PermisosDeEstudiantes.csproj|solutionrelative:permisosdeestudiantes\\controllers\\estadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9394328-CC28-49FB-A646-AD053ADE1499}|PermisosDeEstudiantes\\PermisosDeEstudiantes.csproj|c:\\users\\win 11\\source\\repos\\permisosdeestudiantes\\permisosdeestudiantes\\controllers\\permisocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9394328-CC28-49FB-A646-AD053ADE1499}|PermisosDeEstudiantes\\PermisosDeEstudiantes.csproj|solutionrelative:permisosdeestudiantes\\controllers\\permisocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E9394328-CC28-49FB-A646-AD053ADE1499}|PermisosDeEstudiantes\\PermisosDeEstudiantes.csproj|c:\\users\\win 11\\source\\repos\\permisosdeestudiantes\\permisosdeestudiantes\\migrations\\20241006221902_addclaseestado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E9394328-CC28-49FB-A646-AD053ADE1499}|PermisosDeEstudiantes\\PermisosDeEstudiantes.csproj|solutionrelative:permisosdeestudiantes\\migrations\\20241006221902_addclaseestado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9394328-CC28-49FB-A646-AD053ADE1499}|PermisosDeEstudiantes\\PermisosDeEstudiantes.csproj|c:\\users\\win 11\\source\\repos\\permisosdeestudiantes\\permisosdeestudiantes\\controllers\\cargoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9394328-CC28-49FB-A646-AD053ADE1499}|PermisosDeEstudiantes\\PermisosDeEstudiantes.csproj|solutionrelative:permisosdeestudiantes\\controllers\\cargoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E9394328-CC28-49FB-A646-AD053ADE1499}|PermisosDeEstudiantes\\PermisosDeEstudiantes.csproj|c:\\users\\win 11\\source\\repos\\permisosdeestudiantes\\permisosdeestudiantes\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -122,120 +150,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "20241013210814_addClaseCategoria.cs",
-              "DocumentMoniker": "C:\\Users\\win 11\\source\\repos\\PermisosDeEstudiantes\\PermisosDeEstudiantes\\Migrations\\20241013210814_addClaseCategoria.cs",
-              "RelativeDocumentMoniker": "PermisosDeEstudiantes\\Migrations\\20241013210814_addClaseCategoria.cs",
-              "ToolTip": "C:\\Users\\win 11\\source\\repos\\PermisosDeEstudiantes\\PermisosDeEstudiantes\\Migrations\\20241013210814_addClaseCategoria.cs",
-              "RelativeToolTip": "PermisosDeEstudiantes\\Migrations\\20241013210814_addClaseCategoria.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T21:08:14.402Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Categoria.cs",
-              "DocumentMoniker": "C:\\Users\\win 11\\source\\repos\\PermisosDeEstudiantes\\PermisosDeEstudiantes\\Models\\Categoria.cs",
-              "RelativeDocumentMoniker": "PermisosDeEstudiantes\\Models\\Categoria.cs",
-              "ToolTip": "C:\\Users\\win 11\\source\\repos\\PermisosDeEstudiantes\\PermisosDeEstudiantes\\Models\\Categoria.cs",
-              "RelativeToolTip": "PermisosDeEstudiantes\\Models\\Categoria.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T21:04:55.219Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\win 11\\source\\repos\\PermisosDeEstudiantes\\PermisosDeEstudiantes\\Program.cs",
-              "RelativeDocumentMoniker": "PermisosDeEstudiantes\\Program.cs",
-              "ToolTip": "C:\\Users\\win 11\\source\\repos\\PermisosDeEstudiantes\\PermisosDeEstudiantes\\Program.cs",
-              "RelativeToolTip": "PermisosDeEstudiantes\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-04T03:49:13.141Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\win 11\\source\\repos\\PermisosDeEstudiantes\\PermisosDeEstudiantes\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "PermisosDeEstudiantes\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\win 11\\source\\repos\\PermisosDeEstudiantes\\PermisosDeEstudiantes\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "PermisosDeEstudiantes\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAACEAAAAAAAAAAAAAAC4AAAAdAAAA",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\win 11\\source\\repos\\PermisosDeEstudiantes\\PermisosDeEstudiantes\\Views\\Permiso\\Index.cshtml",
+              "RelativeDocumentMoniker": "PermisosDeEstudiantes\\Views\\Permiso\\Index.cshtml",
+              "ToolTip": "C:\\Users\\win 11\\source\\repos\\PermisosDeEstudiantes\\PermisosDeEstudiantes\\Views\\Permiso\\Index.cshtml",
+              "RelativeToolTip": "PermisosDeEstudiantes\\Views\\Permiso\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-06T22:41:01.501Z"
+              "WhenOpened": "2024-10-27T16:15:16.528Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\win 11\\source\\repos\\PermisosDeEstudiantes\\PermisosDeEstudiantes\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "PermisosDeEstudiantes\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\win 11\\source\\repos\\PermisosDeEstudiantes\\PermisosDeEstudiantes\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
-              "RelativeToolTip": "PermisosDeEstudiantes\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-04T02:58:28.051Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 9,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\win 11\\source\\repos\\PermisosDeEstudiantes\\PermisosDeEstudiantes\\appsettings.json",
               "RelativeDocumentMoniker": "PermisosDeEstudiantes\\appsettings.json",
               "ToolTip": "C:\\Users\\win 11\\source\\repos\\PermisosDeEstudiantes\\PermisosDeEstudiantes\\appsettings.json",
               "RelativeToolTip": "PermisosDeEstudiantes\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAACwAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-10-13T21:49:32.616Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Login.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\win 11\\source\\repos\\PermisosDeEstudiantes\\PermisosDeEstudiantes\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
-              "RelativeDocumentMoniker": "PermisosDeEstudiantes\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
-              "ToolTip": "C:\\Users\\win 11\\source\\repos\\PermisosDeEstudiantes\\PermisosDeEstudiantes\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
-              "RelativeToolTip": "PermisosDeEstudiantes\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAApAAAA",
+              "DocumentIndex": 3,
+              "Title": "PermisoController.cs",
+              "DocumentMoniker": "C:\\Users\\win 11\\source\\repos\\PermisosDeEstudiantes\\PermisosDeEstudiantes\\Controllers\\PermisoController.cs",
+              "RelativeDocumentMoniker": "PermisosDeEstudiantes\\Controllers\\PermisoController.cs",
+              "ToolTip": "C:\\Users\\win 11\\source\\repos\\PermisosDeEstudiantes\\PermisosDeEstudiantes\\Controllers\\PermisoController.cs",
+              "RelativeToolTip": "PermisosDeEstudiantes\\Controllers\\PermisoController.cs",
+              "ViewState": "AQIAAJEAAAAAAAAAAAAcwJwAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-04T02:43:21.811Z"
+              "WhenOpened": "2024-10-13T20:11:54.123Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CategoriaController.cs",
-              "DocumentMoniker": "C:\\Users\\win 11\\source\\repos\\PermisosDeEstudiantes\\PermisosDeEstudiantes\\Controllers\\CategoriaController.cs",
-              "RelativeDocumentMoniker": "PermisosDeEstudiantes\\Controllers\\CategoriaController.cs",
-              "ToolTip": "C:\\Users\\win 11\\source\\repos\\PermisosDeEstudiantes\\PermisosDeEstudiantes\\Controllers\\CategoriaController.cs",
-              "RelativeToolTip": "PermisosDeEstudiantes\\Controllers\\CategoriaController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T21:07:22.719Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\win 11\\source\\repos\\PermisosDeEstudiantes\\PermisosDeEstudiantes\\Views\\Estudiantes\\Index.cshtml",
-              "RelativeDocumentMoniker": "PermisosDeEstudiantes\\Views\\Estudiantes\\Index.cshtml",
-              "ToolTip": "C:\\Users\\win 11\\source\\repos\\PermisosDeEstudiantes\\PermisosDeEstudiantes\\Views\\Estudiantes\\Index.cshtml",
-              "RelativeToolTip": "PermisosDeEstudiantes\\Views\\Estudiantes\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-13T21:41:14.915Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "ScaffoldingReadMe.txt",
               "DocumentMoniker": "C:\\Users\\win 11\\source\\repos\\PermisosDeEstudiantes\\PermisosDeEstudiantes\\ScaffoldingReadMe.txt",
               "RelativeDocumentMoniker": "PermisosDeEstudiantes\\ScaffoldingReadMe.txt",
@@ -243,71 +201,103 @@
               "RelativeToolTip": "PermisosDeEstudiantes\\ScaffoldingReadMe.txt",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-10-13T21:55:48.827Z"
+              "WhenOpened": "2024-10-13T21:55:48.827Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "VistaEstudiante.cshtml",
-              "DocumentMoniker": "C:\\Users\\win 11\\source\\repos\\PermisosDeEstudiantes\\PermisosDeEstudiantes\\Views\\Estudiantes\\VistaEstudiante.cshtml",
-              "RelativeDocumentMoniker": "PermisosDeEstudiantes\\Views\\Estudiantes\\VistaEstudiante.cshtml",
-              "ToolTip": "C:\\Users\\win 11\\source\\repos\\PermisosDeEstudiantes\\PermisosDeEstudiantes\\Views\\Estudiantes\\VistaEstudiante.cshtml",
-              "RelativeToolTip": "PermisosDeEstudiantes\\Views\\Estudiantes\\VistaEstudiante.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC0AAAAAAAAA",
+              "DocumentIndex": 7,
+              "Title": "Permiso.cs",
+              "DocumentMoniker": "C:\\Users\\win 11\\source\\repos\\PermisosDeEstudiantes\\PermisosDeEstudiantes\\Models\\Permiso.cs",
+              "RelativeDocumentMoniker": "PermisosDeEstudiantes\\Models\\Permiso.cs",
+              "ToolTip": "C:\\Users\\win 11\\source\\repos\\PermisosDeEstudiantes\\PermisosDeEstudiantes\\Models\\Permiso.cs",
+              "RelativeToolTip": "PermisosDeEstudiantes\\Models\\Permiso.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T19:48:40.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Consultar.cshtml",
+              "DocumentMoniker": "C:\\Users\\win 11\\source\\repos\\PermisosDeEstudiantes\\PermisosDeEstudiantes\\Views\\Permiso\\Consultar.cshtml",
+              "RelativeDocumentMoniker": "PermisosDeEstudiantes\\Views\\Permiso\\Consultar.cshtml",
+              "ToolTip": "C:\\Users\\win 11\\source\\repos\\PermisosDeEstudiantes\\PermisosDeEstudiantes\\Views\\Permiso\\Consultar.cshtml",
+              "RelativeToolTip": "PermisosDeEstudiantes\\Views\\Permiso\\Consultar.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-13T21:14:53.544Z"
+              "WhenOpened": "2024-10-27T15:51:54.009Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "siteEstudiante.css",
-              "DocumentMoniker": "C:\\Users\\win 11\\source\\repos\\PermisosDeEstudiantes\\PermisosDeEstudiantes\\wwwroot\\css\\siteEstudiante.css",
-              "RelativeDocumentMoniker": "PermisosDeEstudiantes\\wwwroot\\css\\siteEstudiante.css",
-              "ToolTip": "C:\\Users\\win 11\\source\\repos\\PermisosDeEstudiantes\\PermisosDeEstudiantes\\wwwroot\\css\\siteEstudiante.css",
-              "RelativeToolTip": "PermisosDeEstudiantes\\wwwroot\\css\\siteEstudiante.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADAAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-13T21:18:27.845Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "20241013205129_addClaseEstudiantes.cs",
-              "DocumentMoniker": "C:\\Users\\win 11\\source\\repos\\PermisosDeEstudiantes\\PermisosDeEstudiantes\\Migrations\\20241013205129_addClaseEstudiantes.cs",
-              "RelativeDocumentMoniker": "PermisosDeEstudiantes\\Migrations\\20241013205129_addClaseEstudiantes.cs",
-              "ToolTip": "C:\\Users\\win 11\\source\\repos\\PermisosDeEstudiantes\\PermisosDeEstudiantes\\Migrations\\20241013205129_addClaseEstudiantes.cs",
-              "RelativeToolTip": "PermisosDeEstudiantes\\Migrations\\20241013205129_addClaseEstudiantes.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 6,
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "C:\\Users\\win 11\\source\\repos\\PermisosDeEstudiantes\\PermisosDeEstudiantes\\Models\\Categoria.cs",
+              "RelativeDocumentMoniker": "PermisosDeEstudiantes\\Models\\Categoria.cs",
+              "ToolTip": "C:\\Users\\win 11\\source\\repos\\PermisosDeEstudiantes\\PermisosDeEstudiantes\\Models\\Categoria.cs",
+              "RelativeToolTip": "PermisosDeEstudiantes\\Models\\Categoria.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T20:51:29.254Z"
+              "WhenOpened": "2024-10-13T21:04:55.219Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "EstudiantesController.cs",
-              "DocumentMoniker": "C:\\Users\\win 11\\source\\repos\\PermisosDeEstudiantes\\PermisosDeEstudiantes\\Controllers\\EstudiantesController.cs",
-              "RelativeDocumentMoniker": "PermisosDeEstudiantes\\Controllers\\EstudiantesController.cs",
-              "ToolTip": "C:\\Users\\win 11\\source\\repos\\PermisosDeEstudiantes\\PermisosDeEstudiantes\\Controllers\\EstudiantesController.cs",
-              "RelativeToolTip": "PermisosDeEstudiantes\\Controllers\\EstudiantesController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\win 11\\source\\repos\\PermisosDeEstudiantes\\PermisosDeEstudiantes\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "PermisosDeEstudiantes\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\win 11\\source\\repos\\PermisosDeEstudiantes\\PermisosDeEstudiantes\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "PermisosDeEstudiantes\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAABoAAAAAAAAAAAAUwDAAAABXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-06T22:41:01.501Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Consulta.cs",
+              "DocumentMoniker": "C:\\Users\\win 11\\source\\repos\\PermisosDeEstudiantes\\PermisosDeEstudiantes\\Models\\Consulta.cs",
+              "RelativeDocumentMoniker": "PermisosDeEstudiantes\\Models\\Consulta.cs",
+              "ToolTip": "C:\\Users\\win 11\\source\\repos\\PermisosDeEstudiantes\\PermisosDeEstudiantes\\Models\\Consulta.cs",
+              "RelativeToolTip": "PermisosDeEstudiantes\\Models\\Consulta.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T20:50:32.872Z"
+              "WhenOpened": "2024-10-27T17:03:49.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Estado.cs",
+              "DocumentMoniker": "C:\\Users\\win 11\\source\\repos\\PermisosDeEstudiantes\\PermisosDeEstudiantes\\Models\\Estado.cs",
+              "RelativeDocumentMoniker": "PermisosDeEstudiantes\\Models\\Estado.cs",
+              "ToolTip": "C:\\Users\\win 11\\source\\repos\\PermisosDeEstudiantes\\PermisosDeEstudiantes\\Models\\Estado.cs",
+              "RelativeToolTip": "PermisosDeEstudiantes\\Models\\Estado.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T22:10:03.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\win 11\\source\\repos\\PermisosDeEstudiantes\\PermisosDeEstudiantes\\Program.cs",
+              "RelativeDocumentMoniker": "PermisosDeEstudiantes\\Program.cs",
+              "ToolTip": "C:\\Users\\win 11\\source\\repos\\PermisosDeEstudiantes\\PermisosDeEstudiantes\\Program.cs",
+              "RelativeToolTip": "PermisosDeEstudiantes\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T03:49:13.141Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "Estudiante.cs",
-              "DocumentMoniker": "C:\\Users\\win 11\\source\\repos\\PermisosDeEstudiantes\\PermisosDeEstudiantes\\Models\\Estudiante.cs",
-              "RelativeDocumentMoniker": "PermisosDeEstudiantes\\Models\\Estudiante.cs",
-              "ToolTip": "C:\\Users\\win 11\\source\\repos\\PermisosDeEstudiantes\\PermisosDeEstudiantes\\Models\\Estudiante.cs",
-              "RelativeToolTip": "PermisosDeEstudiantes\\Models\\Estudiante.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAACQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T20:36:56.756Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\win 11\\source\\repos\\PermisosDeEstudiantes\\PermisosDeEstudiantes\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "PermisosDeEstudiantes\\Views\\Home\\Index.cshtml",
@@ -315,31 +305,60 @@
               "RelativeToolTip": "PermisosDeEstudiantes\\Views\\Home\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAABHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-13T20:28:44.235Z"
+              "WhenOpened": "2024-10-13T20:28:44.235Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "20241013201301_addClasePermiso.cs",
-              "DocumentMoniker": "C:\\Users\\win 11\\source\\repos\\PermisosDeEstudiantes\\PermisosDeEstudiantes\\Migrations\\20241013201301_addClasePermiso.cs",
-              "RelativeDocumentMoniker": "PermisosDeEstudiantes\\Migrations\\20241013201301_addClasePermiso.cs",
-              "ToolTip": "C:\\Users\\win 11\\source\\repos\\PermisosDeEstudiantes\\PermisosDeEstudiantes\\Migrations\\20241013201301_addClasePermiso.cs",
-              "RelativeToolTip": "PermisosDeEstudiantes\\Migrations\\20241013201301_addClasePermiso.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAxwAAAAAAAAAAA",
+              "DocumentIndex": 13,
+              "Title": "VistaEstudiante.cshtml",
+              "DocumentMoniker": "C:\\Users\\win 11\\source\\repos\\PermisosDeEstudiantes\\PermisosDeEstudiantes\\Views\\Estudiantes\\VistaEstudiante.cshtml",
+              "RelativeDocumentMoniker": "PermisosDeEstudiantes\\Views\\Estudiantes\\VistaEstudiante.cshtml",
+              "ToolTip": "C:\\Users\\win 11\\source\\repos\\PermisosDeEstudiantes\\PermisosDeEstudiantes\\Views\\Estudiantes\\VistaEstudiante.cshtml",
+              "RelativeToolTip": "PermisosDeEstudiantes\\Views\\Estudiantes\\VistaEstudiante.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-13T21:14:53.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CargosController.cs",
+              "DocumentMoniker": "C:\\Users\\win 11\\source\\repos\\PermisosDeEstudiantes\\PermisosDeEstudiantes\\Controllers\\CargosController.cs",
+              "RelativeDocumentMoniker": "PermisosDeEstudiantes\\Controllers\\CargosController.cs",
+              "ToolTip": "C:\\Users\\win 11\\source\\repos\\PermisosDeEstudiantes\\PermisosDeEstudiantes\\Controllers\\CargosController.cs",
+              "RelativeToolTip": "PermisosDeEstudiantes\\Controllers\\CargosController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T20:13:01.994Z"
+              "WhenOpened": "2024-10-04T03:57:14.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\win 11\\source\\repos\\PermisosDeEstudiantes\\PermisosDeEstudiantes\\Views\\Permiso\\Details.cshtml",
+              "RelativeDocumentMoniker": "PermisosDeEstudiantes\\Views\\Permiso\\Details.cshtml",
+              "ToolTip": "C:\\Users\\win 11\\source\\repos\\PermisosDeEstudiantes\\PermisosDeEstudiantes\\Views\\Permiso\\Details.cshtml",
+              "RelativeToolTip": "PermisosDeEstudiantes\\Views\\Permiso\\Details.cshtml",
+              "ViewState": "AQIAACYAAAAAAAAAAAAQwEMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-27T15:46:34.222Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "Permiso.cs",
-              "DocumentMoniker": "C:\\Users\\win 11\\source\\repos\\PermisosDeEstudiantes\\PermisosDeEstudiantes\\Models\\Permiso.cs",
-              "RelativeDocumentMoniker": "PermisosDeEstudiantes\\Models\\Permiso.cs",
-              "ToolTip": "C:\\Users\\win 11\\source\\repos\\PermisosDeEstudiantes\\PermisosDeEstudiantes\\Models\\Permiso.cs",
-              "RelativeToolTip": "PermisosDeEstudiantes\\Models\\Permiso.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAA5wCMAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T19:48:40.286Z"
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\win 11\\source\\repos\\PermisosDeEstudiantes\\PermisosDeEstudiantes\\Views\\Cargos\\Create.cshtml",
+              "RelativeDocumentMoniker": "PermisosDeEstudiantes\\Views\\Cargos\\Create.cshtml",
+              "ToolTip": "C:\\Users\\win 11\\source\\repos\\PermisosDeEstudiantes\\PermisosDeEstudiantes\\Views\\Cargos\\Create.cshtml",
+              "RelativeToolTip": "PermisosDeEstudiantes\\Views\\Cargos\\Create.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABMAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-27T15:33:35.133Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -351,23 +370,156 @@
               "RelativeToolTip": "PermisosDeEstudiantes\\Models\\Cargo.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-06T22:05:45.169Z"
+              "WhenOpened": "2024-10-06T22:05:45.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\win 11\\source\\repos\\PermisosDeEstudiantes\\PermisosDeEstudiantes\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "PermisosDeEstudiantes\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ToolTip": "C:\\Users\\win 11\\source\\repos\\PermisosDeEstudiantes\\PermisosDeEstudiantes\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeToolTip": "PermisosDeEstudiantes\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ViewState": "AQIAAGcAAAAAAAAAAAA2wCkAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T02:43:21.811Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\win 11\\source\\repos\\PermisosDeEstudiantes\\PermisosDeEstudiantes\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "PermisosDeEstudiantes\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\win 11\\source\\repos\\PermisosDeEstudiantes\\PermisosDeEstudiantes\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "RelativeToolTip": "PermisosDeEstudiantes\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-04T02:58:28.051Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\win 11\\source\\repos\\PermisosDeEstudiantes\\PermisosDeEstudiantes\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "PermisosDeEstudiantes\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\win 11\\source\\repos\\PermisosDeEstudiantes\\PermisosDeEstudiantes\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "PermisosDeEstudiantes\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-25T04:57:56.636Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 17,
-              "Title": "Estado.cs",
-              "DocumentMoniker": "C:\\Users\\win 11\\source\\repos\\PermisosDeEstudiantes\\PermisosDeEstudiantes\\Models\\Estado.cs",
-              "RelativeDocumentMoniker": "PermisosDeEstudiantes\\Models\\Estado.cs",
-              "ToolTip": "C:\\Users\\win 11\\source\\repos\\PermisosDeEstudiantes\\PermisosDeEstudiantes\\Models\\Estado.cs",
-              "RelativeToolTip": "PermisosDeEstudiantes\\Models\\Estado.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAArAAAA",
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\win 11\\source\\repos\\PermisosDeEstudiantes\\PermisosDeEstudiantes\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "PermisosDeEstudiantes\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\win 11\\source\\repos\\PermisosDeEstudiantes\\PermisosDeEstudiantes\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "PermisosDeEstudiantes\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAswBQAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-06T22:10:03.406Z"
+              "WhenOpened": "2024-10-26T05:23:40.87Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 21,
+              "Title": "20241013210814_addClaseCategoria.cs",
+              "DocumentMoniker": "C:\\Users\\win 11\\source\\repos\\PermisosDeEstudiantes\\PermisosDeEstudiantes\\Migrations\\20241013210814_addClaseCategoria.cs",
+              "RelativeDocumentMoniker": "PermisosDeEstudiantes\\Migrations\\20241013210814_addClaseCategoria.cs",
+              "ToolTip": "C:\\Users\\win 11\\source\\repos\\PermisosDeEstudiantes\\PermisosDeEstudiantes\\Migrations\\20241013210814_addClaseCategoria.cs",
+              "RelativeToolTip": "PermisosDeEstudiantes\\Migrations\\20241013210814_addClaseCategoria.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T21:08:14.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CategoriaController.cs",
+              "DocumentMoniker": "C:\\Users\\win 11\\source\\repos\\PermisosDeEstudiantes\\PermisosDeEstudiantes\\Controllers\\CategoriaController.cs",
+              "RelativeDocumentMoniker": "PermisosDeEstudiantes\\Controllers\\CategoriaController.cs",
+              "ToolTip": "C:\\Users\\win 11\\source\\repos\\PermisosDeEstudiantes\\PermisosDeEstudiantes\\Controllers\\CategoriaController.cs",
+              "RelativeToolTip": "PermisosDeEstudiantes\\Controllers\\CategoriaController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T21:07:22.719Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\win 11\\source\\repos\\PermisosDeEstudiantes\\PermisosDeEstudiantes\\Views\\Estudiantes\\Index.cshtml",
+              "RelativeDocumentMoniker": "PermisosDeEstudiantes\\Views\\Estudiantes\\Index.cshtml",
+              "ToolTip": "C:\\Users\\win 11\\source\\repos\\PermisosDeEstudiantes\\PermisosDeEstudiantes\\Views\\Estudiantes\\Index.cshtml",
+              "RelativeToolTip": "PermisosDeEstudiantes\\Views\\Estudiantes\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-13T21:41:14.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "siteEstudiante.css",
+              "DocumentMoniker": "C:\\Users\\win 11\\source\\repos\\PermisosDeEstudiantes\\PermisosDeEstudiantes\\wwwroot\\css\\siteEstudiante.css",
+              "RelativeDocumentMoniker": "PermisosDeEstudiantes\\wwwroot\\css\\siteEstudiante.css",
+              "ToolTip": "C:\\Users\\win 11\\source\\repos\\PermisosDeEstudiantes\\PermisosDeEstudiantes\\wwwroot\\css\\siteEstudiante.css",
+              "RelativeToolTip": "PermisosDeEstudiantes\\wwwroot\\css\\siteEstudiante.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-13T21:18:27.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "20241013205129_addClaseEstudiantes.cs",
+              "DocumentMoniker": "C:\\Users\\win 11\\source\\repos\\PermisosDeEstudiantes\\PermisosDeEstudiantes\\Migrations\\20241013205129_addClaseEstudiantes.cs",
+              "RelativeDocumentMoniker": "PermisosDeEstudiantes\\Migrations\\20241013205129_addClaseEstudiantes.cs",
+              "ToolTip": "C:\\Users\\win 11\\source\\repos\\PermisosDeEstudiantes\\PermisosDeEstudiantes\\Migrations\\20241013205129_addClaseEstudiantes.cs",
+              "RelativeToolTip": "PermisosDeEstudiantes\\Migrations\\20241013205129_addClaseEstudiantes.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T20:51:29.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "EstudiantesController.cs",
+              "DocumentMoniker": "C:\\Users\\win 11\\source\\repos\\PermisosDeEstudiantes\\PermisosDeEstudiantes\\Controllers\\EstudiantesController.cs",
+              "RelativeDocumentMoniker": "PermisosDeEstudiantes\\Controllers\\EstudiantesController.cs",
+              "ToolTip": "C:\\Users\\win 11\\source\\repos\\PermisosDeEstudiantes\\PermisosDeEstudiantes\\Controllers\\EstudiantesController.cs",
+              "RelativeToolTip": "PermisosDeEstudiantes\\Controllers\\EstudiantesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T20:50:32.872Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Estudiante.cs",
+              "DocumentMoniker": "C:\\Users\\win 11\\source\\repos\\PermisosDeEstudiantes\\PermisosDeEstudiantes\\Models\\Estudiante.cs",
+              "RelativeDocumentMoniker": "PermisosDeEstudiantes\\Models\\Estudiante.cs",
+              "ToolTip": "C:\\Users\\win 11\\source\\repos\\PermisosDeEstudiantes\\PermisosDeEstudiantes\\Models\\Estudiante.cs",
+              "RelativeToolTip": "PermisosDeEstudiantes\\Models\\Estudiante.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T20:36:56.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "20241013201301_addClasePermiso.cs",
+              "DocumentMoniker": "C:\\Users\\win 11\\source\\repos\\PermisosDeEstudiantes\\PermisosDeEstudiantes\\Migrations\\20241013201301_addClasePermiso.cs",
+              "RelativeDocumentMoniker": "PermisosDeEstudiantes\\Migrations\\20241013201301_addClasePermiso.cs",
+              "ToolTip": "C:\\Users\\win 11\\source\\repos\\PermisosDeEstudiantes\\PermisosDeEstudiantes\\Migrations\\20241013201301_addClasePermiso.cs",
+              "RelativeToolTip": "PermisosDeEstudiantes\\Migrations\\20241013201301_addClasePermiso.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T20:13:01.994Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
               "Title": "PersonasController.cs",
               "DocumentMoniker": "C:\\Users\\win 11\\source\\repos\\PermisosDeEstudiantes\\PermisosDeEstudiantes\\Controllers\\PersonasController.cs",
               "RelativeDocumentMoniker": "PermisosDeEstudiantes\\Controllers\\PersonasController.cs",
@@ -379,7 +531,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 29,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\win 11\\source\\repos\\PermisosDeEstudiantes\\PermisosDeEstudiantes\\Views\\Personas\\Index.cshtml",
               "RelativeDocumentMoniker": "PermisosDeEstudiantes\\Views\\Personas\\Index.cshtml",
@@ -391,7 +543,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 30,
               "Title": "EstadoController.cs",
               "DocumentMoniker": "C:\\Users\\win 11\\source\\repos\\PermisosDeEstudiantes\\PermisosDeEstudiantes\\Controllers\\EstadoController.cs",
               "RelativeDocumentMoniker": "PermisosDeEstudiantes\\Controllers\\EstadoController.cs",
@@ -403,7 +555,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 31,
               "Title": "20241006221902_addClaseEstado.cs",
               "DocumentMoniker": "C:\\Users\\win 11\\source\\repos\\PermisosDeEstudiantes\\PermisosDeEstudiantes\\Migrations\\20241006221902_addClaseEstado.cs",
               "RelativeDocumentMoniker": "PermisosDeEstudiantes\\Migrations\\20241006221902_addClaseEstado.cs",
@@ -415,7 +567,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 28,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\win 11\\source\\repos\\PermisosDeEstudiantes\\PermisosDeEstudiantes\\Views\\Personas\\Create.cshtml",
               "RelativeDocumentMoniker": "PermisosDeEstudiantes\\Views\\Personas\\Create.cshtml",
@@ -427,31 +579,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "PermisoController.cs",
-              "DocumentMoniker": "C:\\Users\\win 11\\source\\repos\\PermisosDeEstudiantes\\PermisosDeEstudiantes\\Controllers\\PermisoController.cs",
-              "RelativeDocumentMoniker": "PermisosDeEstudiantes\\Controllers\\PermisoController.cs",
-              "ToolTip": "C:\\Users\\win 11\\source\\repos\\PermisosDeEstudiantes\\PermisosDeEstudiantes\\Controllers\\PermisoController.cs",
-              "RelativeToolTip": "PermisosDeEstudiantes\\Controllers\\PermisoController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T20:11:54.123Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "CargosController.cs",
-              "DocumentMoniker": "C:\\Users\\win 11\\source\\repos\\PermisosDeEstudiantes\\PermisosDeEstudiantes\\Controllers\\CargosController.cs",
-              "RelativeDocumentMoniker": "PermisosDeEstudiantes\\Controllers\\CargosController.cs",
-              "ToolTip": "C:\\Users\\win 11\\source\\repos\\PermisosDeEstudiantes\\PermisosDeEstudiantes\\Controllers\\CargosController.cs",
-              "RelativeToolTip": "PermisosDeEstudiantes\\Controllers\\CargosController.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAQwAwAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-04T03:57:14.316Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 32,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\win 11\\source\\repos\\PermisosDeEstudiantes\\PermisosDeEstudiantes\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "PermisosDeEstudiantes\\Controllers\\HomeController.cs",

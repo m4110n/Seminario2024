@@ -289,3 +289,4 @@ C:\Users\win 11\source\repos\PermisosDeEstudiantes\PermisosDeEstudiantes\bin\Deb
 C:\Users\win 11\source\repos\PermisosDeEstudiantes\PermisosDeEstudiantes\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Users\win 11\source\repos\PermisosDeEstudiantes\PermisosDeEstudiantes\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
 C:\Users\win 11\source\repos\PermisosDeEstudiantes\PermisosDeEstudiantes\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\win 11\source\repos\PermisosDeEstudiantes\PermisosDeEstudiantes\obj\Debug\net8.0\PermisosDeEstudiantes.sourcelink.json

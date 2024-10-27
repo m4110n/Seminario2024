@@ -1,48 +1,67 @@
-﻿@model PermisosDeEstudiantes.Models.Permiso
+﻿@model IEnumerable<PermisosDeEstudiantes.Models.Permiso>
 
 @{
-    ViewData["Title"] = "Details";
+    ViewData["Title"] = "Consultar Permisos";
 }
 
-<h1>Details</h1>
+<h2>Consultar Permisos</h2>
 
-<div>
-    <h4>Permiso</h4>
-    <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.IdEstudiante)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.IdEstudiante)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Motivo)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Motivo)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.IdCategoria)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.IdCategoria)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Fecha)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Fecha)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.IdEstado)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.IdEstado)
-        </dd>
-    </dl>
-</div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model?.IdPermiso">Edit</a> |
-    <a asp-action="Index">Back to List</a>
-</div>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.IdPermiso)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdEstudiante)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Motivo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdCategoria)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Fecha)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdEstado)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IdPermiso)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IdEstudiante)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Motivo)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IdCategoria)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Fecha)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IdEstado)
+                </td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@item.IdPermiso" class="btn btn-info">Detalles</a>
+                    <a asp-action="Edit" asp-route-id="@item.IdPermiso" class="btn btn-warning">Editar</a>
+                    <a asp-action="Delete" asp-route-id="@item.IdPermiso" class="btn btn-danger">Eliminar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Crear Nuevo Permiso</a>
+</p>

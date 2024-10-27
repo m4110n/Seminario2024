@@ -1,0 +1,49 @@
+﻿@model PermisosDeEstudiantes.Models.Permiso
+
+@{
+    ViewData["Title"] = "Consultar Permiso";
+}
+
+<h2>Consultar Permiso</h2>
+
+<!-- Formulario de búsqueda -->
+<form asp-action="Consultar" method="post" class="form-inline mb-3">
+    <div class="form-group">
+        <label for="searchId" class="sr-only">ID Permiso</label>
+        <input type="number" id="searchId" name="searchId" class="form-control" placeholder="Ingrese ID Permiso" required />
+    </div>
+    <button type="submit" class="btn btn-primary ml-2">Buscar</button>
+</form>
+
+@if (!string.IsNullOrEmpty(ViewBag.Message))
+{
+    <div class="alert alert-warning">
+        @ViewBag.Message
+    </div>
+}
+
+@if (Model != null)
+{
+    <table class="table table-striped mt-3">
+        <thead>
+            <tr>
+                <th>ID Permiso</th>
+                <th>ID Estudiante</th>
+                <th>Motivo</th>
+                <th>ID Categoría</th>
+                <th>Fecha</th>
+                <th>ID Estado</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>@Model.IdPermiso</td>
+                <td>@Model.IdEstudiante</td>
+                <td>@Model.Motivo</td>
+                <td>@Model.IdCategoria</td>
+                <td>@(Model.Fecha.HasValue ? Model.Fecha.Value.ToShortDateString() : "No disponible")</td>
+                <td>@Model.IdEstado</td>
+            </tr>
+        </tbody>
+    </table>
+}
