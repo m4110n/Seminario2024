@@ -8442,19 +8442,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\win 11\\.nuget\\packages\\": {}
+    "C:\\Users\\sesma\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\win 11\\source\\repos\\PermisosDeEstudiantes\\PermisosDeEstudiantes\\PermisosDeEstudiantes.csproj",
+      "projectUniqueName": "C:\\Seminario2024\\PermisosDeEstudiantes\\PermisosDeEstudiantes.csproj",
       "projectName": "PermisosDeEstudiantes",
-      "projectPath": "C:\\Users\\win 11\\source\\repos\\PermisosDeEstudiantes\\PermisosDeEstudiantes\\PermisosDeEstudiantes.csproj",
-      "packagesPath": "C:\\Users\\win 11\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\win 11\\source\\repos\\PermisosDeEstudiantes\\PermisosDeEstudiantes\\obj\\",
+      "projectPath": "C:\\Seminario2024\\PermisosDeEstudiantes\\PermisosDeEstudiantes.csproj",
+      "packagesPath": "C:\\Users\\sesma\\.nuget\\packages\\",
+      "outputPath": "C:\\Seminario2024\\PermisosDeEstudiantes\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\win 11\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\sesma\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8532,7 +8532,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
