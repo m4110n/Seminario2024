@@ -1,0 +1,96 @@
+﻿@model IEnumerable<PermisosDeEstudiantes.Models.PermisoEstudiante>
+
+@{
+    ViewData["Title"] = "Lista de Permisos";
+}
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+    <link href="~/css/site.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #e9f1f8;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            color: #0047ab;
+            text-align: center;
+        }
+
+        .table {
+            margin-top: 20px;
+        }
+
+        .btn-create {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container mt-4">
+        <h1>@ViewData["Title"]</h1>
+        @* <p>
+            <a asp-action="Create" class="btn btn-primary btn-create">Crear Nuevo Permiso</a>
+        </p> *@
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Alumno.NombreCompleto)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.FechaInicio)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.FechaFin)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Motivo)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Status)
+                    </th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Alumno.NombreCompleto)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.FechaInicio)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.FechaFin)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Motivo)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Status)
+                        </td>
+                        <td>
+                            <a class="btn btn-outline-secondary" asp-action="Edit" asp-route-id="@item.IdPermiso">Abrir</a>
+                           @*  <a class="btn btn-outline-secondary" asp-action="Details" asp-route-id="@item.IdPermiso">Detalles</a>
+                            <a class="btn btn-outline-danger" asp-action="Delete" asp-route-id="@item.IdPermiso">Eliminar</a> *@
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+</body>
+</html>

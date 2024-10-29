@@ -1,8 +1,83 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Selecciona Tipo de Usuario";
+    Layout = null;
 }
 
-<div class="text-center">
-    <h1 class="display-4">Bienvenidos a la Aplicacioin de Permisos</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+
+    <!-- Enlace al archivo de estilos CSS -->
+    <link href="~/css/site.css" rel="stylesheet" /> <!-- Reemplaza con la ruta correcta de tu CSS principal -->
+    <!-- Google Fonts para una mejor tipografía -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome para los iconos -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet" />
+
+    <!-- Estilos para mantener la fuente en toda la página -->
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif; /* Asegúrate de que la fuente se aplique a toda la página */
+            background-color: #e9f1f8;
+            margin: 0;
+            padding: 0;
+        }
+
+        h2 {
+            color: #0047ab;
+            font-size: 1.5em;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+
+        h3 {
+            color: #0047ab;
+            font-size: 1.2em;
+            font-weight: 700;
+            margin: 10px 0;
+        }
+
+        p {
+            color: #6c757d;
+            font-size: 0.9em;
+            font-weight: 400;
+        }
+    </style>
+</head>
+<body>
+
+    <div style="display: flex; justify-content: center; align-items: center; min-height: 100vh;">
+        <div style="text-align: center;">
+            <h2>Selecciona tipo de Usuario</h2>
+            <div style="display: flex; gap: 20px; justify-content: center; align-items: center;">
+                <!-- Botón de Estudiante -->
+                <a href="@Url.Action("VistaEstudiante", "Home")" style="text-decoration: none;">
+                    <div style="width: 200px; padding: 20px; background-color: #ffffff; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); text-align: center;">
+                        <div style="font-size: 2em; color: #0047ab;">
+                            <i class="fas fa-user-graduate"></i>
+                        </div>
+                        <h3>Estudiante</h3>
+                        <p>Servicio para estudiantes para crear y consultar permisos.</p>
+                    </div>
+                </a>
+
+                <!-- Botón de Catedrático -->
+                <a href="@Url.Action("VistaCatedratico", "Home")" style="text-decoration: none;">
+                    <div style="width: 200px; padding: 20px; background-color: #ffffff; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); text-align: center;">
+                        <div style="font-size: 2em; color: #0047ab;">
+                            <i class="fas fa-chalkboard-teacher"></i>
+                        </div>
+                        <h3>Catedrático</h3>
+                        <p>Servicio para catedráticos para autorizar permisos.</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -224,6 +224,45 @@ namespace PermisosDeEstudiantes.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
+            modelBuilder.Entity("PermisosDeEstudiantes.Models.Alumno", b =>
+                {
+                    b.Property<int>("CodigoEstudiante")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("CodigoEstudiante"));
+
+                    b.Property<bool>("AlumnoActivo")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("CicloEscolar")
+                        .IsRequired()
+                        .HasMaxLength(10)
+                        .HasColumnType("nvarchar(10)");
+
+                    b.Property<string>("Correo")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("GradoCursando")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<string>("NombreCompleto")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<string>("Telefono")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("CodigoEstudiante");
+
+                    b.ToTable("Alumno");
+                });
+
             modelBuilder.Entity("PermisosDeEstudiantes.Models.Cargo", b =>
                 {
                     b.Property<int>("IdCargo")
@@ -332,6 +371,39 @@ namespace PermisosDeEstudiantes.Migrations
                     b.ToTable("Permiso");
                 });
 
+            modelBuilder.Entity("PermisosDeEstudiantes.Models.PermisoEstudiante", b =>
+                {
+                    b.Property<int>("IdPermiso")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("IdPermiso"));
+
+                    b.Property<int>("CodigoEstudiante")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("FechaFin")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("FechaInicio")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Motivo")
+                        .HasMaxLength(250)
+                        .HasColumnType("nvarchar(250)");
+
+                    b.Property<string>("Status")
+                        .IsRequired()
+                        .HasMaxLength(20)
+                        .HasColumnType("nvarchar(20)");
+
+                    b.HasKey("IdPermiso");
+
+                    b.HasIndex("CodigoEstudiante");
+
+                    b.ToTable("PermisoEstudiante");
+                });
+
             modelBuilder.Entity("PermisosDeEstudiantes.Models.Persona", b =>
                 {
                     b.Property<int>("IdPersona")
@@ -405,6 +477,17 @@ namespace PermisosDeEstudiantes.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("PermisosDeEstudiantes.Models.PermisoEstudiante", b =>
+                {
+                    b.HasOne("PermisosDeEstudiantes.Models.Alumno", "Alumno")
+                        .WithMany()
+                        .HasForeignKey("CodigoEstudiante")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Alumno");
                 });
 
             modelBuilder.Entity("PermisosDeEstudiantes.Models.Persona", b =>

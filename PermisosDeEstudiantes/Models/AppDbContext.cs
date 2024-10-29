@@ -15,6 +15,8 @@ namespace PermisosDeEstudiantes.Models
         public DbSet<PermisosDeEstudiantes.Models.Permiso> Permiso { get; set; } = default!;
         public DbSet<PermisosDeEstudiantes.Models.Estudiante> Estudiante { get; set; } = default!;
         public DbSet<PermisosDeEstudiantes.Models.Categoria> Categoria { get; set; } = default!;
+        public DbSet<PermisosDeEstudiantes.Models.Alumno> Alumno { get; set; } = default!;
+        public DbSet<PermisosDeEstudiantes.Models.PermisoEstudiante> PermisoEstudiante { get; set; } = default!;
         // finaliza
     }
 }

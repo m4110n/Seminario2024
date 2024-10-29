@@ -10,11 +10,11 @@
         "projectUniqueName": "C:\\Seminario2024\\PermisosDeEstudiantes\\PermisosDeEstudiantes.csproj",
         "projectName": "PermisosDeEstudiantes",
         "projectPath": "C:\\Seminario2024\\PermisosDeEstudiantes\\PermisosDeEstudiantes.csproj",
-        "packagesPath": "C:\\Users\\sesma\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\jmont\\.nuget\\packages\\",
         "outputPath": "C:\\Seminario2024\\PermisosDeEstudiantes\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\sesma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jmont\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -92,7 +92,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

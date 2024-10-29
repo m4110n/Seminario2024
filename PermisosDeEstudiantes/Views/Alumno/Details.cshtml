@@ -1,0 +1,77 @@
+﻿@model PermisosDeEstudiantes.Models.Alumno
+
+@{
+    ViewData["Title"] = "Detalles del Alumno";
+}
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+    <link href="~/css/site.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #e9f1f8;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            color: #c0392b;
+            text-align: center;
+        }
+
+        h4 {
+            color: #0047ab;
+            text-align: center;
+        }
+
+        .container {
+            margin-top: 30px;
+        }
+
+        .btn-link {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        .btn-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container mt-4">
+        <h1>@ViewData["Title"]</h1>
+        <div>
+            <h4>Detalles del Alumno</h4>
+            <hr />
+            <dl class="row">
+                <dt class="col-sm-2">@Html.DisplayNameFor(model => model.NombreCompleto)</dt>
+                <dd class="col-sm-10">@Html.DisplayFor(model => model.NombreCompleto)</dd>
+                <dt class="col-sm-2">@Html.DisplayNameFor(model => model.GradoCursando)</dt>
+                <dd class="col-sm-10">@Html.DisplayFor(model => model.GradoCursando)</dd>
+                <dt class="col-sm-2">@Html.DisplayNameFor(model => model.CicloEscolar)</dt>
+                <dd class="col-sm-10">@Html.DisplayFor(model => model.CicloEscolar)</dd>
+                <dt class="col-sm-2">@Html.DisplayNameFor(model => model.Correo)</dt>
+                <dd class="col-sm-10">@Html.DisplayFor(model => model.Correo)</dd>
+                <dt class="col-sm-2">@Html.DisplayNameFor(model => model.Telefono)</dt>
+                <dd class="col-sm-10">@Html.DisplayFor(model => model.Telefono)</dd>
+                <dt class="col-sm-2">@Html.DisplayNameFor(model => model.AlumnoActivo)</dt>
+                <dd class="col-sm-10">@Html.DisplayFor(model => model.AlumnoActivo)</dd>
+            </dl>
+        </div>
+
+        <div class="text-center mt-4">
+            <a asp-action="Edit" asp-route-id="@Model?.CodigoEstudiante" class="btn btn-outline-primary">Editar</a>
+            <a asp-action="Index" class="btn btn-outline-secondary">Volver a la lista</a>
+        </div>
+    </div>
+
+</body>
+</html>

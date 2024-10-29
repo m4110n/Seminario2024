@@ -1,0 +1,94 @@
+﻿@{
+    ViewData["Title"] = "Gestión de Permisos - Catedrático";
+    //Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+
+    <!-- Enlace al archivo de estilos CSS -->
+    <link href="~/css/site.css" rel="stylesheet" />
+    <!-- Google Fonts para una mejor tipografía -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome para los iconos -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet" />
+
+    <!-- Estilos para mantener la fuente en toda la página -->
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #e9f1f8;
+            margin: 0;
+            padding: 0;
+        }
+
+        h2 {
+            color: #0047ab;
+            font-size: 1.5em;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+
+        h3 {
+            color: #0047ab;
+            font-size: 1.2em;
+            font-weight: 700;
+            margin: 10px 0;
+        }
+
+        p {
+            color: #6c757d;
+            font-size: 0.9em;
+            font-weight: 400;
+        }
+    </style>
+</head>
+<body>
+
+    <div style="display: flex; justify-content: center; align-items: center; min-height: 100vh;">
+        <div style="text-align: center;">
+            <h2>Gestión de Permisos - Catedrático</h2>
+            <div style="display: flex; gap: 20px; justify-content: center; align-items: center;">
+                <!-- Botón de Autorizar Permisos -->
+                <a href="@Url.Action("Index", "PermisoEstudiante")" style="text-decoration: none;">
+                    <div style="width: 200px; padding: 20px; background-color: #ffffff; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); text-align: center;">
+                        <div style="font-size: 2em; color: #0047ab;">
+                            <i class="fas fa-check-circle"></i>
+                        </div>
+                        <h3>Autorizar Permisos</h3>
+                        <p>Revisa y autoriza solicitudes de permisos.</p>
+                    </div>
+                </a>
+
+                <!-- Botón de Historial de Permisos Autorizados -->
+                <a href="@Url.Action("Historial", "PermisoEstudiante")" style="text-decoration: none;">
+                    <div style="width: 200px; padding: 20px; background-color: #ffffff; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); text-align: center;">
+                        <div style="font-size: 2em; color: #0047ab;">
+                            <i class="fas fa-history"></i>
+                        </div>
+                        <h3>Historial de Permisos</h3>
+                        <p>Consulta el historial de permisos autorizados.</p>
+                    </div>
+                </a>
+
+                <!-- Botón de Alta de Estudiantes -->
+                <a href="@Url.Action("Index", "Alumno")" style="text-decoration: none;">
+                    <div style="width: 200px; padding: 20px; background-color: #ffffff; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); text-align: center;">
+                        <div style="font-size: 2em; color: #0047ab;">
+                            <i class="fas fa-user-plus"></i>
+                        </div>
+                        <h3>Alta de Estudiantes</h3>
+                        <p>Registra y/o modifica estudiantes.</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

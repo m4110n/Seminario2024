@@ -31,6 +31,6 @@ namespace PermisosDeEstudiantes.Models
         [EmailAddress(ErrorMessage = "El correo electrónico no es válido.")]
         public string? Gmail { get; set; }
 
-
+    
     }
 }

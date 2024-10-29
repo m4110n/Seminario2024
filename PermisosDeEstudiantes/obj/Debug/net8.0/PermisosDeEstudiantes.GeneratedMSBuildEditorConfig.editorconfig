@@ -54,6 +54,26 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Seminario2024/PermisosDeEstudiantes/Views/Alumno/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWx1bW5vXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Seminario2024/PermisosDeEstudiantes/Views/Alumno/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWx1bW5vXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Seminario2024/PermisosDeEstudiantes/Views/Alumno/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWx1bW5vXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Seminario2024/PermisosDeEstudiantes/Views/Alumno/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWx1bW5vXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Seminario2024/PermisosDeEstudiantes/Views/Alumno/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWx1bW5vXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Seminario2024/PermisosDeEstudiantes/Views/Cargos/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyZ29zXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -144,6 +164,46 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Seminario2024/PermisosDeEstudiantes/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Seminario2024/PermisosDeEstudiantes/Views/Home/VistaCatedratico.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxWaXN0YUNhdGVkcmF0aWNvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Seminario2024/PermisosDeEstudiantes/Views/Home/VistaEstudiante.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxWaXN0YUVzdHVkaWFudGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Seminario2024/PermisosDeEstudiantes/Views/PermisoEstudiante/Consultar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVybWlzb0VzdHVkaWFudGVcQ29uc3VsdGFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Seminario2024/PermisosDeEstudiantes/Views/PermisoEstudiante/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVybWlzb0VzdHVkaWFudGVcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Seminario2024/PermisosDeEstudiantes/Views/PermisoEstudiante/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVybWlzb0VzdHVkaWFudGVcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Seminario2024/PermisosDeEstudiantes/Views/PermisoEstudiante/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVybWlzb0VzdHVkaWFudGVcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Seminario2024/PermisosDeEstudiantes/Views/PermisoEstudiante/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVybWlzb0VzdHVkaWFudGVcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Seminario2024/PermisosDeEstudiantes/Views/PermisoEstudiante/Historial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVybWlzb0VzdHVkaWFudGVcSGlzdG9yaWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Seminario2024/PermisosDeEstudiantes/Views/PermisoEstudiante/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVybWlzb0VzdHVkaWFudGVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Seminario2024/PermisosDeEstudiantes/Views/PermisoEstudiante/ResultadosConsulta.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVybWlzb0VzdHVkaWFudGVcUmVzdWx0YWRvc0NvbnN1bHRhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Seminario2024/PermisosDeEstudiantes/Views/Permiso/Consultar.cshtml]

@@ -1,0 +1,78 @@
+﻿@model IEnumerable<PermisosDeEstudiantes.Models.Alumno>
+
+@{
+    ViewData["Title"] = "Lista de Alumnos";
+}
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+    <link href="~/css/site.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #e9f1f8;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            color: #0047ab;
+            text-align: center;
+        }
+
+        .table {
+            margin-top: 20px;
+        }
+
+        .btn-create {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container mt-4">
+        <h1>@ViewData["Title"]</h1>
+        <p>
+            <a asp-action="Create" class="btn btn-primary btn-create">Crear Nuevo Alumno</a>
+        </p>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>@Html.DisplayNameFor(model => model.NombreCompleto)</th>
+                    <th>@Html.DisplayNameFor(model => model.GradoCursando)</th>
+                    <th>@Html.DisplayNameFor(model => model.CicloEscolar)</th>
+                    <th>@Html.DisplayNameFor(model => model.Correo)</th>
+                    <th>@Html.DisplayNameFor(model => model.Telefono)</th>
+                    <th>@Html.DisplayNameFor(model => model.AlumnoActivo)</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@Html.DisplayFor(modelItem => item.NombreCompleto)</td>
+                        <td>@Html.DisplayFor(modelItem => item.GradoCursando)</td>
+                        <td>@Html.DisplayFor(modelItem => item.CicloEscolar)</td>
+                        <td>@Html.DisplayFor(modelItem => item.Correo)</td>
+                        <td>@Html.DisplayFor(modelItem => item.Telefono)</td>
+                        <td>@Html.DisplayFor(modelItem => item.AlumnoActivo)</td>
+                        <td>
+                            <a class="btn btn-outline-secondary" asp-action="Edit" asp-route-id="@item.CodigoEstudiante">Editar</a>
+                            <a class="btn btn-outline-secondary" asp-action="Details" asp-route-id="@item.CodigoEstudiante">Detalles</a>
+                            <a class="btn btn-outline-danger" asp-action="Delete" asp-route-id="@item.CodigoEstudiante">Eliminar</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+</body>
+</html>
