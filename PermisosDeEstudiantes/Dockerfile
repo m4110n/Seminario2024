@@ -20,5 +20,6 @@ RUN dotnet publish "PermisosDeEstudiantes.csproj" -c Release -o /app/publish
 FROM build AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
+COPY octubre.pfx /https/octubre.pfx
 
 ENTRYPOINT ["dotnet", "PermisosDeEstudiantes.dll"]
