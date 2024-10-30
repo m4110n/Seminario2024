@@ -1,0 +1,24 @@
+﻿@model PermisosDeEstudiantes.Models.PermisoEstudiante
+@{
+   
+     Layout = null;
+}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Detalles del Permiso</title>
+    <link href="~/css/site.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <h2>Detalles del Permiso</h2>
+        <p><strong>Nombre del Alumno:</strong> @Model.Alumno.NombreCompleto</p>
+        <p><strong>Fecha de Inicio:</strong> @Model.FechaInicio.ToShortDateString()</p>
+        <p><strong>Fecha Final:</strong> @Model.FechaFin.ToShortDateString()</p>
+        <p><strong>Motivo:</strong> @Model.Motivo</p>
+        <p><strong>Estado del Permiso:</strong> @Model.Status</p>
+    </div>
+</body>
+</html>

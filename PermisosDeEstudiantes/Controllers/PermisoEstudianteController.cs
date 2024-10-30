@@ -60,6 +60,7 @@ namespace PermisosDeEstudiantes.Controllers
         }
 
         // POST: PermisoEstudiante/Create
+        [AllowAnonymous]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("IdPermiso,FechaInicio,FechaFin,Motivo,CodigoEstudiante")] PermisoEstudiante permisoEstudiante)
@@ -183,6 +184,7 @@ namespace PermisosDeEstudiantes.Controllers
         }
 
         // POST: Consultar
+        [AllowAnonymous]
         [HttpPost]
         public IActionResult Consultar(ConsultarPermisoViewModel model)
         {
@@ -197,6 +199,24 @@ namespace PermisosDeEstudiantes.Controllers
 
             return View("ResultadosConsulta", permisos);
         }
+
+    
+        // GET: PermisoEstudiante/ImprimirPermiso/5
+        [AllowAnonymous]
+        public async Task<IActionResult> ImprimirPermiso(int id)
+        {
+            var permisoEstudiante = await _context.PermisoEstudiante
+                .Include(p => p.Alumno) // Incluye el nombre del alumno
+                .FirstOrDefaultAsync(p => p.IdPermiso == id);
+
+            if (permisoEstudiante == null)
+            {
+                return NotFound();
+            }
+
+            return View(permisoEstudiante);
+        }
+
 
 
     }

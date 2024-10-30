@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PermisosDeEstudiantes")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b6f562b2d2a12f58d7d4184469f5104c984f674e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+82174d1d3e7d72505d5c42e0bb434434b63a35bb")]
 [assembly: System.Reflection.AssemblyProductAttribute("PermisosDeEstudiantes")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PermisosDeEstudiantes")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

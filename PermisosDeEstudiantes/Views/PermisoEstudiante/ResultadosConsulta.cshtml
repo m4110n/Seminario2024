@@ -35,14 +35,14 @@
             width: 100%;
         }
 
-        .table th {
-            background-color: #0047ab;
-            color: white;
-        }
+            .table th {
+                background-color: #0047ab;
+                color: white;
+            }
 
-        .table th, .table td {
-            text-align: center;
-        }
+            .table th, .table td {
+                text-align: center;
+            }
 
         .no-results {
             text-align: center;
@@ -62,9 +62,23 @@
             border-radius: 5px;
         }
 
-        .btn-back:hover {
-            background-color: #5a6268;
+            .btn-back:hover {
+                background-color: #5a6268;
+            }
+
+        .btn-print {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
         }
+
+            .btn-print:hover {
+                background-color: #0056b3;
+            }
     </style>
 </head>
 <body>
@@ -79,6 +93,7 @@
                     <th>Fecha Final</th>
                     <th>Motivo</th>
                     <th>Estado del Permiso</th>
+                    <th>Imprimir</th>
                 </tr>
             </thead>
             <tbody>
@@ -89,6 +104,9 @@
                         <td>@permiso.FechaFin.ToShortDateString()</td>
                         <td>@permiso.Motivo</td>
                         <td>@permiso.Status</td>
+                        <td>
+                            <a href="@Url.Action("ImprimirPermiso", "PermisoEstudiante", new { id = permiso.IdPermiso })" target="_blank" class="btn-print">Imprimir</a>
+                        </td>
                     </tr>
                 }
             </tbody>
