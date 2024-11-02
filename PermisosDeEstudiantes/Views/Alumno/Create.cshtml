@@ -83,24 +83,28 @@
 
     <script>
         function abrirNuevaPestana() {
-            // Cambiar el formulario para procesarlo con fetch
             const form = document.getElementById('createForm');
             const formData = new FormData(form);
             const url = form.action;
 
-            // Enviar los datos del formulario mediante fetch
             fetch(url, {
                 method: 'POST',
                 body: formData
             })
-                .then(response => response.json())
-                .then(data => {
-                    // Si se obtiene el ID del estudiante, abrir la vista de detalles en una nueva pestaña y redirigir a Index
-                    if (data && data.id) {
-                        window.open(@Url.Action("DetalleEstudiante", "Alumno")? id = ${ data.id }, '_blank');
-                        window.location.href = "@Url.Action("Index", "Alumno")";
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok');
                     }
-                });
+                    return response.json();
+                })
+                .then(data => {
+                    if (data && data.id) {
+                        // Cambia a la forma correcta de abrir la nueva pestaña
+                        window.open('@Url.Action("DetalleEstudiante", "Alumno")?id=' + data.id, '_blank');
+                        window.location.href = '@Url.Action("Index", "Alumno")';
+                    }
+                })
+                .catch(error => console.error('Error:', error));
 
             return false; // Evita la recarga de la página actual
         }
