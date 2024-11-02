@@ -9,6 +9,7 @@
     <div class="row justify-content-center w-100">
         <div class="col-md-4">
             <div class="text-center mb-4">
+                <img src="~/img/logotipo.png" alt="Logotipo" class="img-fluid mb-3" style="max-width: 150px;" />
                 <h1>@ViewData["Title"]</h1>
             </div>
             <section class="p-4 rounded shadow-sm bg-white">
@@ -40,32 +41,32 @@
             </section>
         </div>
 
-      @*   <div class="col-md-6 col-md-offset-2">
-            <section class="p-4 rounded shadow-sm bg-white">
-                <h3 class="text-center text-secondary">Registrar con otro servicio</h3>
-                <hr />
-                @{
-                    if ((Model.ExternalLogins?.Count ?? 0) == 0)
-                    {
-                        <div class="text-center">
-                            <p>
-                                No hay servicios de autenticación externos configurados. Consulte este <a href="https://go.microsoft.com/fwlink/?LinkID=532715" class="link-primary">artículo sobre configuración de servicios externos</a>.
-                            </p>
-                        </div>
-                    }
-                    else
-                    {
-                        <form id="external-account" asp-page="./ExternalLogin" asp-route-returnUrl="@Model.ReturnUrl" method="post" class="d-flex flex-column align-items-center">
-                            <p class="mb-0">
-                                @foreach (var provider in Model.ExternalLogins!)
-                                {
-                                    <button type="submit" class="btn btn-outline-primary m-2" name="provider" value="@provider.Name" title="Registrarse usando @provider.DisplayName">@provider.DisplayName</button>
-                                }
-                            </p>
-                        </form>
-                    }
-                }
-            </section>
+        @*   <div class="col-md-6 col-md-offset-2">
+        <section class="p-4 rounded shadow-sm bg-white">
+        <h3 class="text-center text-secondary">Registrar con otro servicio</h3>
+        <hr />
+        @{
+        if ((Model.ExternalLogins?.Count ?? 0) == 0)
+        {
+        <div class="text-center">
+        <p>
+        No hay servicios de autenticación externos configurados. Consulte este <a href="https://go.microsoft.com/fwlink/?LinkID=532715" class="link-primary">artículo sobre configuración de servicios externos</a>.
+        </p>
+        </div>
+        }
+        else
+        {
+        <form id="external-account" asp-page="./ExternalLogin" asp-route-returnUrl="@Model.ReturnUrl" method="post" class="d-flex flex-column align-items-center">
+        <p class="mb-0">
+        @foreach (var provider in Model.ExternalLogins!)
+        {
+        <button type="submit" class="btn btn-outline-primary m-2" name="provider" value="@provider.Name" title="Registrarse usando @provider.DisplayName">@provider.DisplayName</button>
+        }
+        </p>
+        </form>
+        }
+        }
+        </section>
         </div> *@
     </div>
 </div>

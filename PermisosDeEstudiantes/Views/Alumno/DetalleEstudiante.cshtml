@@ -1,4 +1,7 @@
 ﻿@model PermisosDeEstudiantes.Models.Alumno
+@{
+    Layout = null;
+}
 
 <!DOCTYPE html>
 <html lang="es">
@@ -22,13 +25,33 @@
             padding: 20px;
             border: 1px solid #ccc;
             background-color: white;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
         }
+
+        .header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            margin-bottom: 20px;
+            margin-top: 30px; /* Ajusta este valor para mover más abajo */
+        }
+
+        .logo-container {
+            position: absolute;
+            right: 0;
+        }
+
+            .logo-container img {
+                max-width: 85px;
+                height: auto;
+            }
 
         h1 {
             color: #0047ab;
-            text-align: center;
             font-size: 2em;
-            margin-top: 0;
+            margin: 0;
+            text-align: center;
         }
 
         .table {
@@ -50,10 +73,7 @@
         }
 
         .footer {
-            position: absolute;
-            bottom: 20px;
-            left: 0;
-            width: 100%;
+            margin-top: 40px;
             text-align: center;
             font-size: 0.9em;
             color: #666;
@@ -62,7 +82,12 @@
 </head>
 <body>
     <div class="report-container">
-        <h1>Detalle de la Inscripción</h1>
+        <div class="header">
+            <h1>Detalle de la Inscripción</h1>
+            <div class="logo-container">
+                <img src="~/img/logotipo.png" alt="Logotipo" />
+            </div>
+        </div>
         <table class="table">
             <tr><th>Código</th><td>@Model.CodigoEstudiante</td></tr>
             <tr><th>Nombre</th><td>@Model.NombreCompleto</td></tr>
