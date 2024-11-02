@@ -172,7 +172,7 @@ namespace PermisosDeEstudiantes.Controllers
         //Historico
         public async Task<IActionResult> Historial()
         {
-            var historicoPermisos = await _context.PermisoEstudiante.ToListAsync(); 
+            var historicoPermisos = await _context.PermisoEstudiante.ToListAsync();
             return View(historicoPermisos);
         }
 
@@ -200,7 +200,7 @@ namespace PermisosDeEstudiantes.Controllers
             return View("ResultadosConsulta", permisos);
         }
 
-    
+
         // GET: PermisoEstudiante/ImprimirPermiso/5
         [AllowAnonymous]
         public async Task<IActionResult> ImprimirPermiso(int id)

@@ -66,6 +66,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWx1bW5vXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Seminario2024/PermisosDeEstudiantes/Views/Alumno/DetalleEstudiante.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWx1bW5vXERldGFsbGVFc3R1ZGlhbnRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Seminario2024/PermisosDeEstudiantes/Views/Alumno/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWx1bW5vXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

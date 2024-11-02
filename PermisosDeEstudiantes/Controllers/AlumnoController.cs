@@ -61,7 +61,9 @@ namespace PermisosDeEstudiantes.Controllers
             {
                 _context.Add(alumno);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+
+                // Retorna el id en JSON para usar en el JavaScript de la vista
+                return Json(new { id = alumno.CodigoEstudiante });
             }
             return View(alumno);
         }
@@ -154,5 +156,18 @@ namespace PermisosDeEstudiantes.Controllers
         {
             return _context.Alumno.Any(e => e.CodigoEstudiante == id);
         }
+
+        //DetalleEstudiante
+
+        public IActionResult DetalleEstudiante(int id)
+        {
+            var alumno = _context.Alumno.FirstOrDefault(a => a.CodigoEstudiante == id);
+            if (alumno == null)
+            {
+                return NotFound();
+            }
+            return View(alumno);
+        }
+
     }
 }

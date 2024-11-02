@@ -1,11 +1,11 @@
-﻿@model PermisosDeEstudiantes.Models.PermisoEstudiante
+﻿@model PermisosDeEstudiantes.Models.Alumno
 
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Detalles del Permiso</title>
+    <title>Detalle de Alumno</title>
     <link href="~/css/site.css" rel="stylesheet" />
     <style>
         body {
@@ -62,16 +62,18 @@
 </head>
 <body>
     <div class="report-container">
-        <h1>Detalles del Permiso</h1>
+        <h1>Detalle de la Inscripción</h1>
         <table class="table">
-            <tr><th>Nombre del Alumno:</th><td>@Model.Alumno.NombreCompleto</td></tr>
-            <tr><th>Fecha de Inicio:</th><td>@Model.FechaInicio.ToShortDateString()</td></tr>
-            <tr><th>Fecha Final:</th><td>@Model.FechaFin.ToShortDateString()</td></tr>
-            <tr><th>Motivo:</th><td>@Model.Motivo</td></tr>
-            <tr><th>Estado del Permiso:</th><td>@Model.Status</td></tr>
+            <tr><th>Código</th><td>@Model.CodigoEstudiante</td></tr>
+            <tr><th>Nombre</th><td>@Model.NombreCompleto</td></tr>
+            <tr><th>Grado Cursando</th><td>@Model.GradoCursando</td></tr>
+            <tr><th>Ciclo Escolar</th><td>@Model.CicloEscolar</td></tr>
+            <tr><th>Correo</th><td>@Model.Correo</td></tr>
+            <tr><th>Teléfono</th><td>@Model.Telefono</td></tr>
+            <tr><th>Activo</th><td>@Model.AlumnoActivo</td></tr>
         </table>
         <div class="footer">
-            <p>Generado automáticamente por el sistema de permisos estudiantiles.</p>
+            <p>Generado automáticamente por el sistema de gestión estudiantil.</p>
         </div>
     </div>
 </body>
